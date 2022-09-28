@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:23:31 MSK 2019
+mule-jms-connector-1.6.2-mule-plugin.jar>=
+mule-jms-connector-1.6.2.pom>=

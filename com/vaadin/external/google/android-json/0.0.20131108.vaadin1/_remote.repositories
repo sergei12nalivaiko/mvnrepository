@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jun 25 18:03:30 MSK 2021
+android-json-0.0.20131108.vaadin1.pom>=
+android-json-0.0.20131108.vaadin1.jar>=
+android-json-0.0.20131108.vaadin1-sources.jar>central=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jun 25 17:28:36 MSK 2021
+kubernetes-assertions-2.2.192.jar>central=
+kubernetes-assertions-2.2.192-sources.jar>central=
+kubernetes-assertions-2.2.192.pom>central=

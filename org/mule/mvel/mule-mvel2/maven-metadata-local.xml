@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.mule.mvel</groupId>
+  <artifactId>mule-mvel2</artifactId>
+  <versioning>
+    <release>2.1.9-MULE-018</release>
+    <versions>
+      <version>2.1.9-MULE-018</version>
+    </versions>
+    <lastUpdated>20191103162321</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.solace.spring.cloud</groupId>
+  <artifactId>spring-cloud-starter-stream-solace</artifactId>
+  <version>3.3.0</version>
+  <name>Spring Cloud Starter Stream Solace</name>
+  <description>Spring Cloud Starter Stream for the Solace Spring Cloud Stream Binder</description>
+  <url>https://github.com/SolaceProducts/solace-spring-cloud/tree/2.3.0/solace-spring-cloud-starters/solace-spring-cloud-stream-starter</url>
+  <organization>
+    <name>Solace</name>
+    <url>https://www.solace.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://github.com/SolaceProducts/solace-spring-cloud/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Support for Solace</name>
+      <email>support@solace.com</email>
+      <organization>Solace</organization>
+      <organizationUrl>http://solace.community</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-parent/spring-cloud-starter-stream-solace</connection>
+    <developerConnection>scm:git:git@github.com:SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-parent/spring-cloud-starter-stream-solace</developerConnection>
+    <tag>2.3.0</tag>
+    <url>https://github.com/SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-parent/spring-cloud-starter-stream-solace</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.solace.spring.cloud</groupId>
+      <artifactId>spring-cloud-stream-binder-solace</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

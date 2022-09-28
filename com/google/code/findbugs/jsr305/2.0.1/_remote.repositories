@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:22:50 MSK 2019
+jsr305-2.0.1.pom>=
+jsr305-2.0.1.jar>=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jun 25 17:28:32 MSK 2021
+okio-1.9.0-sources.jar>central=
+okio-1.9.0.jar>central=
+okio-1.9.0.pom>central=

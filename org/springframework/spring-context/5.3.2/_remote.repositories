@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Dec 25 05:28:43 MSK 2020
+spring-context-5.3.2.jar>central=
+spring-context-5.3.2.pom>central=
+spring-context-5.3.2-sources.jar>central=

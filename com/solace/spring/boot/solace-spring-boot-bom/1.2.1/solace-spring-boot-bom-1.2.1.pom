@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.solace.spring.boot</groupId>
+  <artifactId>solace-spring-boot-bom</artifactId>
+  <version>1.2.1</version>
+  <packaging>pom</packaging>
+  <name>Solace Spring Boot BOM</name>
+  <description>BOM for Solace Spring Boot</description>
+  <url>https://github.com/SolaceProducts/solace-spring-boot/tree/1.2.1/solace-spring-boot-bom</url>
+  <organization>
+    <name>Solace</name>
+    <url>https://www.solace.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://github.com/SolaceProducts/solace-spring-boot/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Support for Solace</name>
+      <email>support@solace.com</email>
+      <organization>Solace</organization>
+      <organizationUrl>http://solace.community</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SolaceProducts/solace-spring-boot.git/solace-spring-boot-bom</connection>
+    <developerConnection>scm:git:git@github.com:SolaceProducts/solace-spring-boot.git/solace-spring-boot-bom</developerConnection>
+    <tag>1.2.1</tag>
+    <url>https://github.com/SolaceProducts/solace-spring-boot.git/solace-spring-boot-bom</url>
+  </scm>
+  <properties>
+    <solace.spring.boot.java-starter.version>4.2.1</solace.spring.boot.java-starter.version>
+    <pivotal.cfenv.version>2.4.0</pivotal.cfenv.version>
+    <repoName>SolaceProducts</repoName>
+    <solace.spring.boot.jms-starter.version>4.2.1</solace.spring.boot.jms-starter.version>
+    <spring.boot.version>2.6.4</spring.boot.version>
+    <solace.cloud.cloudfoundry.java-cfenv.version>1.2.1</solace.cloud.cloudfoundry.java-cfenv.version>
+    <solace.spring.boot.starter.version>1.2.1</solace.spring.boot.starter.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.solace.spring.boot</groupId>
+        <artifactId>solace-spring-boot-starter</artifactId>
+        <version>${solace.spring.boot.starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.solace.spring.boot</groupId>
+        <artifactId>solace-jms-spring-boot-starter</artifactId>
+        <version>${solace.spring.boot.jms-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.solace.spring.boot</groupId>
+        <artifactId>solace-java-spring-boot-starter</artifactId>
+        <version>${solace.spring.boot.java-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.solace.cloud.cloudfoundry</groupId>
+        <artifactId>solace-java-cfenv</artifactId>
+        <version>${solace.cloud.cloudfoundry.java-cfenv.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

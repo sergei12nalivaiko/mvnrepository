@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Feb 21 17:44:05 MSK 2022
+liquibase-core-4.5.0.jar>central=
+liquibase-core-4.5.0-sources.jar>central=
+liquibase-core-4.5.0.pom>central=

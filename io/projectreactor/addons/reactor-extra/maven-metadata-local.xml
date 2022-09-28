@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.projectreactor.addons</groupId>
+  <artifactId>reactor-extra</artifactId>
+  <versioning>
+    <release>3.1.6.RELEASE</release>
+    <versions>
+      <version>3.1.6.RELEASE</version>
+    </versions>
+    <lastUpdated>20191103162321</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:23:30 MSK 2019
+jffi-1.2.18.jar>=
+jffi-1.2.18.pom>=
+jffi-1.2.18-native.jar>=

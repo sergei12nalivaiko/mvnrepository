@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:23:21 MSK 2019
+jersey-media-json-jackson-2.25.jar>=
+jersey-media-json-jackson-2.25.pom>=

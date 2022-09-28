@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:23:20 MSK 2019
+hazelcast-client-3.12.pom>=
+hazelcast-client-3.12.jar>=

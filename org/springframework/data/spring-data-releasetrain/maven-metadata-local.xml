@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework.data</groupId>
+  <artifactId>spring-data-releasetrain</artifactId>
+  <versioning>
+    <release>Ingalls-SR8</release>
+    <versions>
+      <version>Ingalls-SR8</version>
+    </versions>
+    <lastUpdated>20191103162332</lastUpdated>
+  </versioning>
+</metadata>

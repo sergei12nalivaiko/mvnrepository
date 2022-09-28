@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 15 12:53:44 MSK 2022
+https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1650016422323
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1650016420794
+https\://oss.sonatype.org/content/repositories/snapshots/.error=
+@default-spring-milestones-http\://repo.spring.io/milestone/.lastUpdated=1650016424416
+http\://repo.spring.io/milestone/.error=Could not transfer artifact org.slf4j\:slf4j-api\:jar\:1.7.36 from/to spring-milestones (http\://repo.spring.io/milestone)\: Transfer failed for http\://repo.spring.io/milestone/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar 308 Permanent Redirect
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.slf4j\:slf4j-api\:jar\:1.7.36 from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar

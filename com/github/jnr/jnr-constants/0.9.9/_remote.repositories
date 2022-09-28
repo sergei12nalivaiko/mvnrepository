@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 28 20:20:49 MSK 2022
+jnr-constants-0.9.9.pom>=
+jnr-constants-0.9.9.jar>central=

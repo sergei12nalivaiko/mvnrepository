@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:23:30 MSK 2019
+org.eclipse.wst.xml.xpath2.processor-2.1.100.jar>=
+org.eclipse.wst.xml.xpath2.processor-2.1.100.pom>=

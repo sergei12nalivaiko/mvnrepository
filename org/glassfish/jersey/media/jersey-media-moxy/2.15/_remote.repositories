@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:22:50 MSK 2019
+jersey-media-moxy-2.15.jar>=
+jersey-media-moxy-2.15.pom>=

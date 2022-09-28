@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.solace.spring.cloud</groupId>
+  <artifactId>solace-spring-cloud-bom</artifactId>
+  <version>2.3.0</version>
+  <packaging>pom</packaging>
+  <name>Solace Spring Cloud BOM</name>
+  <description>BOM for Solace Spring Cloud</description>
+  <url>https://github.com/SolaceProducts/solace-spring-cloud/tree/2.3.0/solace-spring-cloud-bom</url>
+  <organization>
+    <name>Solace</name>
+    <url>https://www.solace.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://github.com/SolaceProducts/solace-spring-cloud/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Support for Solace</name>
+      <email>support@solace.com</email>
+      <organization>Solace</organization>
+      <organizationUrl>http://solace.community</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-bom</connection>
+    <developerConnection>scm:git:git@github.com:SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-bom</developerConnection>
+    <tag>2.3.0</tag>
+    <url>https://github.com/SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-bom</url>
+  </scm>
+  <properties>
+    <solace.spring.boot.starter.version>1.2.1</solace.spring.boot.starter.version>
+    <solace.spring.boot.java-starter.version>4.2.1</solace.spring.boot.java-starter.version>
+    <solace.spring.cloud.stream-starter.version>3.3.0</solace.spring.cloud.stream-starter.version>
+    <spring.cloud.connectors.version>2.2.13.RELEASE</spring.cloud.connectors.version>
+    <repoName>SolaceProducts</repoName>
+    <spring.cloud.version>2021.0.1</spring.cloud.version>
+    <solace.integration.test.support.fetch_checkout.skip>false</solace.integration.test.support.fetch_checkout.skip>
+    <pivotal.cfenv.version>2.4.0</pivotal.cfenv.version>
+    <solace.integration.test.support.version>0.9.0</solace.integration.test.support.version>
+    <solace.spring.cloud.connector.version>4.3.6</solace.spring.cloud.connector.version>
+    <solace.integration.test.support.install.skip>true</solace.integration.test.support.install.skip>
+    <spring.boot.version>2.6.4</spring.boot.version>
+    <solace.spring.boot.bom.version>1.2.1</solace.spring.boot.bom.version>
+    <solace.spring.boot.jms-starter.version>4.2.1</solace.spring.boot.jms-starter.version>
+    <solace.cloud.cloudfoundry.java-cfenv.version>1.2.1</solace.cloud.cloudfoundry.java-cfenv.version>
+  </properties>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.solace.spring.boot</groupId>
+        <artifactId>solace-spring-boot-bom</artifactId>
+        <version>${solace.spring.boot.bom.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>com.solace.spring.cloud</groupId>
+        <artifactId>spring-cloud-starter-stream-solace</artifactId>
+        <version>${solace.spring.cloud.stream-starter.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.solace.cloud.cloudfoundry</groupId>
+        <artifactId>solace-spring-cloud-connector</artifactId>
+        <version>${solace.spring.cloud.connector.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

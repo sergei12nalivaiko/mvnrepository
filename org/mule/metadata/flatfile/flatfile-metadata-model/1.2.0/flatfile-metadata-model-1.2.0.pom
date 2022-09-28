@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mule.metadata.flatfile</groupId>
+  <artifactId>flatfile-metadata-model</artifactId>
+  <version>1.2.0</version>
+  <packaging>pom</packaging>
+
+  <name>Flatfile TypeBuilder</name>
+  <description>Metadata Builder for flat file formats (fixed width, copybook, and flat file)</description>
+
+  <properties>
+    <jdk.version>1.8</jdk.version>
+    <metadataModelVersion>1.2.0</metadataModelVersion>
+    <edi-parser.version>2.3.0</edi-parser.version>
+    <base.scala.version>2.12</base.scala.version>
+    <scala.version>${base.scala.version}.7</scala.version>
+    <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+    <javaFormatter.plugin.version>2.0.1</javaFormatter.plugin.version>
+    <formatterConfigPath>formatter.xml</formatterConfigPath>
+    <commonsIoVersion>1.3.2</commonsIoVersion>
+  </properties>
+
+  <modules>
+    <module>schema-metadata</module>
+    <module>type-builder</module>
+  </modules>
+
+  <distributionManagement>
+    <repository>
+      <id>mule-releases</id>
+      <name>Mule Release Repository</name>
+      <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>mule-snapshots</id>
+      <name>Mule Snapshot Repository</name>
+      <url>https://repository-master.mulesoft.org/nexus/content/repositories/snapshots</url>
+      <uniqueVersion>false</uniqueVersion>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>

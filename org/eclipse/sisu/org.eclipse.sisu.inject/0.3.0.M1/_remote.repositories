@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jun 25 17:29:01 MSK 2021
+org.eclipse.sisu.inject-0.3.0.M1.jar>central=
+org.eclipse.sisu.inject-0.3.0.M1.pom>central=
+org.eclipse.sisu.inject-0.3.0.M1-sources.jar>central=

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 03 19:23:30 MSK 2019
+log4j-core-2.8.2.jar>=
+log4j-core-2.8.2.pom>=

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.solace.spring.cloud</groupId>
+  <artifactId>spring-cloud-stream-binder-solace</artifactId>
+  <version>3.3.0</version>
+  <name>Solace Spring Cloud Stream Binder</name>
+  <description>A Spring Cloud Stream Binder implementation using the Solace Java API (JCSMP)</description>
+  <url>https://github.com/SolaceProducts/solace-spring-cloud/tree/2.3.0/solace-spring-cloud-stream-binder</url>
+  <organization>
+    <name>Solace</name>
+    <url>https://www.solace.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://github.com/SolaceProducts/solace-spring-cloud/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Support for Solace</name>
+      <email>support@solace.com</email>
+      <organization>Solace</organization>
+      <organizationUrl>http://solace.community</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-parent/spring-cloud-stream-binder-solace</connection>
+    <developerConnection>scm:git:git@github.com:SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-parent/spring-cloud-stream-binder-solace</developerConnection>
+    <tag>2.3.0</tag>
+    <url>https://github.com/SolaceProducts/solace-spring-cloud.git/solace-spring-cloud-parent/spring-cloud-stream-binder-solace</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.solace.spring.cloud</groupId>
+      <artifactId>spring-cloud-stream-binder-solace-core</artifactId>
+      <version>3.3.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.solacesystems</groupId>
+      <artifactId>sol-jcsmp</artifactId>
+      <version>10.13.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.solace.spring.boot</groupId>
+      <artifactId>solace-java-spring-boot-starter</artifactId>
+      <version>4.2.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot</artifactId>
+      <version>2.6.4</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-stream</artifactId>
+      <version>3.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+      <version>2.6.4</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+</project>

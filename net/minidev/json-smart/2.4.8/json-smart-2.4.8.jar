@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 15 12:53:40 MSK 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1650016420793
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact net.minidev\:json-smart\:jar\:2.4.8 from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar

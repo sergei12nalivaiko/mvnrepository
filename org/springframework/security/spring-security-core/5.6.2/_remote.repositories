@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 15 14:41:45 MSK 2022
+spring-security-core-5.6.2.jar>central=
+spring-security-core-5.6.2-sources.jar>central=
+spring-security-core-5.6.2.pom>central=
+spring-security-core-5.6.2-javadoc.jar>central=

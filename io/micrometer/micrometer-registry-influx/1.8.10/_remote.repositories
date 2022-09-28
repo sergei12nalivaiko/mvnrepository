@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 28 20:05:15 MSK 2022
+micrometer-registry-influx-1.8.10.jar>spring-releases=
+micrometer-registry-influx-1.8.10.pom>spring-releases=

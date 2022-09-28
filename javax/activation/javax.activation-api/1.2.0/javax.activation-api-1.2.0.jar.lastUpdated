@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 15 12:53:43 MSK 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1650016420784
+https\://maven.java.net/content/repositories/releases/.lastUpdated=1650016423898
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact javax.activation\:javax.activation-api\:jar\:1.2.0 from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar
