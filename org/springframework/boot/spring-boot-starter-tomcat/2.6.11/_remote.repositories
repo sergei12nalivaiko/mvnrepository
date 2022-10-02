@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Oct 02 18:29:11 MSK 2022
+spring-boot-starter-tomcat-2.6.11.jar>spring-releases=
+spring-boot-starter-tomcat-2.6.11.pom>spring-releases=
